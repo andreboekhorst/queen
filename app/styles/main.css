@@ -1,0 +1,35 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+
+#chessboard{
+  width: 648px;
+  height: 648px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.checker{
+  width: 80px;
+  height: 80px;
+  float: left;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+
+
+.checker.disabled{
+  background: #FFF;
+}
+
+.checker.disabled.even, .checker.even{
+  background: #CCC;
+}
+
+.checker.queen{
+  background: #000 !important;
+}
